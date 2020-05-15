@@ -12,6 +12,6 @@ type Option func(*authorization)
 // WithSkipper is an option that set authorization's skipper.
 func WithSkipper(skipper clevergo.Skipper) Option {
 	return func(a *authorization) {
-		a.Skipper = skipper
+		a.skipper = skipper
 	}
 }

@@ -19,6 +19,6 @@ func TestWithSkipper(t *testing.T) {
 		return true
 	}
 	WithSkipper(skipper)(a)
-	a.Skipper(nil)
+	a.skipper(nil)
 	assert.True(t, skipped)
 }

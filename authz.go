@@ -36,12 +36,12 @@ func New(enforcer *casbin.Enforcer, userFunc UserFunc, opts ...Option) clevergo.
 type authorization struct {
 	enforcer *casbin.Enforcer
 	userFunc UserFunc
-	Skipper  clevergo.Skipper
+	skipper  clevergo.Skipper
 }
 
 func (a *authorization) Middleware(next clevergo.Handle) clevergo.Handle {
 	return func(c *clevergo.Context) error {
-		if a.Skipper == nil || !a.Skipper(c) {
+		if a.skipper == nil || !a.skipper(c) {
 			id, err := a.userFunc(c)
 			if err != nil {
 				return err
