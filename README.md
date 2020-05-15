@@ -4,6 +4,7 @@
 [![GoDoc](https://img.shields.io/badge/godoc-reference-blue)](https://pkg.go.dev/github.com/clevergo/authz)
 [![Go Report Card](https://goreportcard.com/badge/github.com/clevergo/authz)](https://goreportcard.com/report/github.com/clevergo/authz)
 [![Release](https://img.shields.io/github/release/clevergo/authz.svg?style=flat-square)](https://github.com/clevergo/authz/releases)
+[![Sourcegraph](https://sourcegraph.com/github.com/clevergo/authz/-/badge.svg)](https://sourcegraph.com/github.com/clevergo/authz?badge)
 
 
 ## Usage
