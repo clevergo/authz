@@ -1,0 +1,3 @@
+p, foo, /posts, GET|POST
+p, foo, /posts/:id, GET|DELETE|PUT|PATCH
+p, bar, /posts, GET
