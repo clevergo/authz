@@ -10,8 +10,8 @@ import (
 	"net/http/httptest"
 	"testing"
 
+	"clevergo.tech/clevergo"
 	"github.com/casbin/casbin/v2"
-	"github.com/clevergo/clevergo"
 	"github.com/stretchr/testify/assert"
 )
 

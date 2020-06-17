@@ -8,8 +8,8 @@ import (
 	"errors"
 	"net/http"
 
+	"clevergo.tech/clevergo"
 	"github.com/casbin/casbin/v2"
-	"github.com/clevergo/clevergo"
 )
 
 // Errors

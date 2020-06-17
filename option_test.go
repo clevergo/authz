@@ -7,7 +7,7 @@ package authz
 import (
 	"testing"
 
-	"github.com/clevergo/clevergo"
+	"clevergo.tech/clevergo"
 	"github.com/stretchr/testify/assert"
 )
 

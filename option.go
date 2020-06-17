@@ -4,7 +4,7 @@
 
 package authz
 
-import "github.com/clevergo/clevergo"
+import "clevergo.tech/clevergo"
 
 // Option is a function that apply on authorization middleware.
 type Option func(*authorization)
